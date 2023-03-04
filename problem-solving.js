@@ -11,8 +11,36 @@
 
 //* problem-02
 //? print the odd numbers less than 100
-for (let i = 0; i <= 100; i++) {
-    if (i % 2 !== 0) {
-        console.log(i)
-    }
-}
+// for (let i = 0; i <= 100; i++) {
+//     if (i % 2 !== 0) {
+//         console.log(i)
+//     }
+// }
+
+//? another way
+// for(let i = 1; i<101; i+=2){
+//     console.log(i)
+// }
+
+//* problem-03
+//? Print the multiplication table with 7
+// let i = 1;
+// while(i<=10){
+//     const table = 7 * i;
+//     console.log(`${7} X ${i} = ${table}`)
+//     i++;
+// }
+
+//* problem-04
+//? Print all the multiplication tables with numbers from 1 to 10
+// let i = 1;
+// while(i<=10){
+//     generateTable(i);
+//     i++;
+// }
+// function generateTable(num){
+//     for(let i =1; i<=10; i++){
+//         const table = num * i;
+//         console.log(`${num} X ${i} = ${table}`);
+//     }
+// }
