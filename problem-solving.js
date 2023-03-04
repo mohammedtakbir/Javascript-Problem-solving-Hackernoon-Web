@@ -55,9 +55,27 @@
 
 //* problem-06
 //? Calculate 10!
-let factorial = 1;
-for(let i = 10; i>=1; i--){
-    let temp = factorial;
-    factorial *= i;
-    console.log(`${i} * ${temp} = ${factorial}`)
-}
+// let factorial = 1;
+// for(let i = 10; i>=1; i--){
+//     let temp = factorial;
+//     factorial *= i;
+//     console.log(`${i} * ${temp} = ${factorial}`)
+// }
+
+//* problem-07
+//? Calculate the sum of odd numbers greater than 10 and less than 30
+// let sum = 0;
+// for(let i = 10; i<=30; i++){
+//     if(i % 2 !== 0){
+//         const temp = sum;
+//         sum += i;
+//         console.log(`${i} + ${temp} = ${sum}`)
+//     }
+// }
+
+//* problem-08
+//? Create a function that will convert from Celsius to Fahrenheit
+// function converter(celsius){
+//     return (celsius * 1.8) +32
+// }
+// console.log(converter(25))
