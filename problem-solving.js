@@ -79,3 +79,63 @@
 //     return (celsius * 1.8) +32
 // }
 // console.log(converter(25))
+
+//* problem-09
+//? Create a function that will convert from Fahrenheit to Celsius
+// function converter(fahrenheit){
+//     return (fahrenheit -32) * 5/9
+// }
+// console.log(converter(104))
+
+//* problem-10
+//? Calculate the sum of numbers in an array of numbers
+// const arr = [25, 14, 74, 65, 83];
+
+//? using forEach()
+// let sum = 0;
+// arr.forEach(num => sum+=num);
+// console.log(sum)
+
+//? using while loop
+// let i = 0;
+// while(i<arr.length){
+//     sum += arr[i]
+//     i++;
+// }
+// console.log(sum)
+
+//* problem-11
+//? Calculate the average of the numbers in an array of numbers
+// function average(num) {
+//     let sum = 0;
+//     num.forEach(n => sum += n);
+//     return sum / arr.length;
+// }
+// console.log(average(arr))
+
+//* problem-12
+//? Create a function that receives an array of numbers and returns an array containing only the positive numbers
+
+// const arr = [-25, 257, 36, -37, 15, -95];
+
+// function getPositiveNumbers(numbers) {
+//     //? using filter()
+//     return numbers.filter(n => n<0)
+//     //? using forEach()
+//     const positiveNumbers = [];
+//     numbers.forEach(n => {
+//         if(n < 0){
+//             positiveNumbers.push(n)
+//         }
+//     });
+//     return positiveNumbers;
+
+//     //? using for---of
+//     for (const number of numbers) {
+//         if (number < 0) {
+//             positiveNumbers.push(number)
+//         }
+//     }
+//     return positiveNumbers;
+// }
+// console.log(getPositiveNumbers(arr))
