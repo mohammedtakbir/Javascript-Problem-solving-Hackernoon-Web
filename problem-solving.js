@@ -118,24 +118,52 @@
 
 // const arr = [-25, 257, 36, -37, 15, -95];
 
-// function getPositiveNumbers(numbers) {
+// function getNegativeNumbers(numbers) {
 //     //? using filter()
 //     return numbers.filter(n => n<0)
 //     //? using forEach()
-//     const positiveNumbers = [];
+//     const NegativeNumbers = [];
 //     numbers.forEach(n => {
 //         if(n < 0){
-//             positiveNumbers.push(n)
+//             NegativeNumbers.push(n)
 //         }
 //     });
-//     return positiveNumbers;
+//     return NegativeNumbers;
 
 //     //? using for---of
 //     for (const number of numbers) {
 //         if (number < 0) {
-//             positiveNumbers.push(number)
+//             NegativeNumbers.push(number)
+//         }
+//     }
+//     return NegativeNumbers;
+// }
+// console.log(getNegativeNumbers(arr))
+
+//* problem-13
+//? Create a function that receives an array of numbers and returns an array containing only the positive numbers
+// function getPositiveNumbers(numbers) {
+//     let positiveNumbers = [];
+//     for (var i = 0; i < numbers.length; i++) {
+//         if (numbers[i] >= 0) {
+//             positiveNumbers.push(numbers[i])
 //         }
 //     }
 //     return positiveNumbers;
 // }
 // console.log(getPositiveNumbers(arr))
+
+//* problem-14
+//? Find the maximum number in an array of numbers
+// const arr = [35, 15, 45, 85, 65, 95];
+//? Math.max()
+// console.log(Math.max(...arr))
+// let maximum = arr[0];
+
+//? forEach()
+// arr.forEach(n => {
+//     if (n > maximum) {
+//         maximum = n;
+//     };
+// })
+// console.log(maximum)
