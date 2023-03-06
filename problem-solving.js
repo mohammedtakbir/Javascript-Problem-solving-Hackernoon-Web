@@ -177,3 +177,14 @@
 //     console.log(arr)
 //     arr[i] = arr[i - 1] + arr[i - 2];
 // }
+
+//* problem-16
+//? Create a function that will find the nth Fibonacci number using recursion
+
+// function findFibonacci(n) {
+//     if(n < 2){
+//         return n;
+//     }
+//     return findFibonacci(n - 1) + findFibonacci(n - 2)
+// }
+// console.log(findFibonacci(7))
