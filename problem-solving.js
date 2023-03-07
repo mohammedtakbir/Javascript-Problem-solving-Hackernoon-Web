@@ -193,9 +193,7 @@
 //? Create a function that will return a Boolean specifying if a number is prime
 
 // function checkPrimeNumber(num) {
-//     if (num === 1) {
-//         return false;
-//     } else if (num < 0) {
+//     if (num < 2) {
 //         return false;
 //     } else if (num === 2) {
 //         return true;
@@ -208,4 +206,28 @@
 //         }
 //     }
 // }
-// console.log(checkPrimeNumber(23))
+// console.log(checkPrimeNumber(-25))
+
+//* problem-18
+//? Calculate the sum of digits of a positive integer number
+const positiveIntegerNumber = 357955;
+// function sum(num) {
+//     const digit = num.toString();
+//     const digitArr = digit.split('');
+//     let sum = 0;
+//     for (const str of digitArr) {
+//         sum += parseFloat(str)
+//     }
+//     return sum;
+// }
+// console.log(sum(positiveIntegerNumber))
+
+// function sum(num) {
+//     let sum = 0;
+//     const str = num.toString();
+//     for (const numStr of str) {
+//         sum += parseFloat(numStr)
+//     }
+//     return sum;
+// }
+// console.log(sum(positiveIntegerNumber))
