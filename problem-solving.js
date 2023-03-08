@@ -231,3 +231,32 @@ const positiveIntegerNumber = 357955;
 //     return sum;
 // }
 // console.log(sum(positiveIntegerNumber))
+
+//* problem-19
+//? Print the first 100 prime numbers
+
+function prime(num) {
+    let count = 0;
+    let i = 0;
+    while (count < num) {
+        if (getPrimeNumber(i)) {
+            console.log(i);
+            count++;
+        }
+        i++;
+    }
+}
+function getPrimeNumber(num) {
+    if (num < 2) {
+        return false;
+    }
+    for (let i = 2; i < num; i++) {
+        if (num % i === 0) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+}
+
+prime(100);
