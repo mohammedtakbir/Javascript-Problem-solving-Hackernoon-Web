@@ -291,3 +291,10 @@
 //     return true;
 // }
 // console.log(getPrimes(10, 359))
+
+//* problem-21
+//? Rotate an array to the left 1 position
+// const arr = [5, 4, 3, 2, 1];
+// const firstElement = arr.shift();
+// arr.push(firstElement);
+// console.log(arr)
