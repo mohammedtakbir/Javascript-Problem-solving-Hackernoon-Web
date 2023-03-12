@@ -298,3 +298,29 @@
 // const firstElement = arr.shift();
 // arr.push(firstElement);
 // console.log(arr)
+
+//* problem-22
+//? Rotate an array to the right 1 position
+// const arr = [9, 8, 7, 6, 5]
+// const lastElement = arr.pop();
+// arr.unshift(lastElement);
+// console.log(arr)
+
+//* problem-23
+// const arr = [1, 2, 3, 4, 5, 6];
+
+//? Reverse an array using sort() method
+// const rvs = arr.sort((a, b) => b - a);
+// console.log(rvs)
+
+//? Reverse an array using reverse() method
+// console.log(arr.reverse())
+
+//? Reverse an array using while loop
+// let i = arr.length - 1;
+// let reverse = [];
+// while (i >= 0) {
+//     reverse.push(arr[i]);
+//     i--;
+// }
+// console.log(reverse)
