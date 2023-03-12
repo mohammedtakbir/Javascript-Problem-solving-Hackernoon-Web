@@ -324,3 +324,18 @@
 //     i--;
 // }
 // console.log(reverse)
+
+//* problem-24
+//? Reverse a string
+//? using split() and reverse() method
+const str = 'takbir';
+// const splittedStr = str.split('');
+// let rvs = splittedStr.reverse();
+// console.log(rvs.join(''))
+
+//? using for loop
+// let rvs = '';
+// for (let i = str.length - 1; i >= 0; i--) {
+//     rvs += str[i];
+// }
+// console.log(rvs)
