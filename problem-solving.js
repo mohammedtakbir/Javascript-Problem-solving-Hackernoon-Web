@@ -328,7 +328,7 @@
 //* problem-24
 //? Reverse a string
 //? using split() and reverse() method
-const str = 'takbir';
+// const str = 'takbir';
 // const splittedStr = str.split('');
 // let rvs = splittedStr.reverse();
 // console.log(rvs.join(''))
@@ -339,3 +339,13 @@ const str = 'takbir';
 //     rvs += str[i];
 // }
 // console.log(rvs)
+
+//* problem-25
+//? Create a function that will merge two arrays and return the result as a new array
+// const arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const arr2 = [8, 7, 6, 5, 4, 3, 2, 1];
+
+// const mergeAnArray = (arr1, arr2) => {
+//     return [...arr1, ...arr2]
+// }
+// console.log(mergeAnArray(arr1, arr2));
