@@ -370,3 +370,22 @@
 //     return arr;
 // }
 // console.log(composedArray(arr1, arr2));
+
+//* problem-27
+//? Create a function that will receive two arrays and will return an array with elements that are in the first array but not in the second
+
+// const arr1 = [1, 2, 3, 10, 5, 3, 14];
+// const arr2 = [-1, 4, 5, 6, 14];
+
+// function mergeArray(arr1, arr2){
+//     const newArray = [];
+//     for(let i = 0; i< arr1.length; i++){
+//         const element = arr1[i];
+//         if(!arr2.includes(element)){
+//             newArray.push(element);
+//         }
+//     }
+//     return newArray;
+// }
+// console.log(mergeArray(arr1, arr2));
+
