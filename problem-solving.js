@@ -389,3 +389,7 @@
 // }
 // console.log(mergeArray(arr1, arr2));
 
+//* problem-28
+//? Create a function that will receive an array of numbers as argument and will return a new array with distinct elements
+
+const arr = [3, 5, 2, 9, 3, 1, 8, 5, 9, -2, 5, 1];
